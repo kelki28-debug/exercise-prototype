@@ -1,7 +1,7 @@
-Number.prototype.powerFive = function(n){
-    return Math.pow(n, 5)
+Number.prototype.powerFive = function(){
+    return Math.pow(this, 5)
 }
 
-let n = 0
+let number = 4
 
-console.log(n.powerFive(4))
+console.log(number.powerFive())
